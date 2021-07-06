@@ -10,7 +10,6 @@ public:
 	int numx,numy;
 	void Set_x(int setNum_x) { numx = setNum_x; }
 	void Set_y(int setNum_y) { numy = setNum_y; }
-	private:
 };
 int main()
 {
@@ -83,14 +82,18 @@ int main()
 	Test.setVectorZ(numZ);
 	printf("XÀ•W%d\n,YÀ•W%d\n,ZÀ•W%d", Test.getVectorX(),Test.getVectorY(),Test.getVectorZ());
 }
-void Vector2::setVectorX(int setNum) {
+void Vector2::setVectorX(int setNum)
+{
 this->numx = setNum;
 numx = setNum;   
 }
-void Vector2::setVectorY(int setNum2) {
+void Vector2::setVectorY(int setNum2) 
+{
 this->numy = setNum2;
 numy = setNum2;   
-}void Vector2::setVectorZ(int setNum3) {
+}
+void Vector2::setVectorZ(int setNum3)
+{
 this->numz = setNum3;
 numz = setNum3;   
 }
